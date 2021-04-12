@@ -14,3 +14,5 @@ message(STATUS "Given CXX compiler : " ${CMAKE_CXX_COMPILER})
 set(CMAKE_INSTALL_PREFIX "/home/debian/ExploringBeaglebone")
 # Add all the other examples
 add_subdirectory(LibGpiodChipPrint)
+add_subdirectory(LedBlink/)
+add_subdirectory(GpioButtonEvent/)
