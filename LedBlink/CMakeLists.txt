@@ -23,5 +23,5 @@ link_directories(${CMAKE_SYSROOT}/usr/local/lib)
 target_link_libraries(${EXENAME} ${GPIOD_C_LIBRARY} ${GPIOD_CXX_LIBRARY})
 
 # We could also install them on beaglebone
-install(TARGETS ${EXENAME} RUNTIME DESTINATION ${CMAKE_INSTALL_PREFIX}/${EXENAME})
+install(TARGETS ${EXENAME} DESTINATION bin)
 

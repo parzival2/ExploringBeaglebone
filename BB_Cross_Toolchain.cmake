@@ -1,8 +1,11 @@
 # Set the system name
 set(CMAKE_SYSTEM_NAME Linux)
 # C Compiler
-set(CMAKE_C_COMPILER /usr/bin/arm-linux-gnueabihf-gcc)
-set(CMAKE_CXX_COMPILER /usr/bin/arm-linux-gnueabihf-g++)
+set(COMPILER_PATH /home/kalyan/x-tools/arm-cortex_a8-linux-gnueabihf/bin)
+set(COMPILER_FRONT arm-cortex_a8-linux-gnueabihf-)
+set(CMAKE_TRY_COMPILE_TARGET_TYPE STATIC_LIBRARY)
+set(CMAKE_C_COMPILER ${COMPILER_PATH}/${COMPILER_FRONT}gcc)
+set(CMAKE_CXX_COMPILER ${COMPILER_PATH}/${COMPILER_FRONT}g++)
 # Sysroot location
 # It is mounted using sshfs
 set(CMAKE_SYSROOT /home/kalyan/Beaglebone-Sysroot)

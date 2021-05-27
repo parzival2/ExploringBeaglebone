@@ -12,7 +12,7 @@ int main()
         std::cout << cit.name() << " - " << cit.num_lines() << " lines." << std::endl;
     }
     const std::string chipName = "gpiochip1";
-    constexpr int offset = 28;
+    constexpr int offset = 24;
     // Get the number of lines in chip0
     gpiod::chip chip(chipName);
     auto lines = chip.get_line(offset);
