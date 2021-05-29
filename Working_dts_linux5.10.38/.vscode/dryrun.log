@@ -1,0 +1,9 @@
+make -f "/home/kalyan/Downloads/linux-yocto-5.10.38/arch/arm/boot_new/dts/nuttx/Makefile" --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/kalyan/Downloads/linux-yocto-5.10.38/arch/arm/boot_new/dts'
+make: Leaving directory '/home/kalyan/Downloads/linux-yocto-5.10.38/arch/arm/boot_new/dts'
+ 
+make: /home/kalyan/Downloads/linux-yocto-5.10.38/arch/arm/boot_new/dts/nuttx/Makefile: No such file or directory
+make: *** No rule to make target '/home/kalyan/Downloads/linux-yocto-5.10.38/arch/arm/boot_new/dts/nuttx/Makefile'.
+make: Failed to remake makefile '/home/kalyan/Downloads/linux-yocto-5.10.38/arch/arm/boot_new/dts/nuttx/Makefile'.
+make: *** No targets specified and no makefile found.  Stop.
+ 
