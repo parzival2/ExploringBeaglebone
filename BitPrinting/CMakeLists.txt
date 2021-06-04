@@ -9,5 +9,5 @@ link_directories(${CMAKE_SYSROOT}/usr/local/lib)
 include_directories(${EXENAME} PRIVATE ${CMAKE_SYSROOT}/usr/local/include)
 
 # We could also install them on beaglebone
-install(TARGETS ${EXENAME} DESTINATION bin)
+install(TARGETS ${EXENAME} DESTINATION exploring_beaglebone)
 

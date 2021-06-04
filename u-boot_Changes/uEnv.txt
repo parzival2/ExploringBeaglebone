@@ -1,0 +1,1 @@
+fdtfile=am335x-boneblack-roboticscape.dtb
